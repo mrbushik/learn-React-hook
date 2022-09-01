@@ -29,7 +29,7 @@ const ProgrammableActionsExample = () => {
             <button className="btn btn-primary" onClick={handleClick}>
                 focus input
             </button>
-            <button className="btn btn-secondary" onClick={handleClickWidth}>
+            <button className="btn btn-secondaryx" onClick={handleClickWidth}>
                 edit width
             </button>
         </CardWrapper>
