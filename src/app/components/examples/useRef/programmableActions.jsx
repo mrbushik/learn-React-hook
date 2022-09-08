@@ -11,6 +11,7 @@ const ProgrammableActionsExample = () => {
     const handleClickWidth = () => {
         inputRef.current.style.width = "100px";
     };
+
     return (
         <CardWrapper>
             <SmallTitle className="card-title">

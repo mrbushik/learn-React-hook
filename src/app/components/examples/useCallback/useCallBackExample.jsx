@@ -7,7 +7,6 @@ const UseCallBackExample = () => {
     const withOutCallback = React.useRef(0);
     const withCallback = React.useRef(0);
     const handleChange = ({ target }) => {
-        // console.log(target);
         setData((pervState) => ({ ...pervState, [target.name]: target.value }));
     };
 
